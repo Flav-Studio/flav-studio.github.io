@@ -11,7 +11,7 @@ export default {
   theme: {
     extend: {
       maxWidth: {
-        'max': '1621px'
+        'max': '92rem'
       },
       colors: {
         'fsblack': '#171717',
