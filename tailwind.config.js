@@ -9,7 +9,18 @@ export default {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      maxWidth: {
+        'max': '1621px'
+      },
+      colors: {
+        'fsblack': '#171717',
+        'fsgrey': '#F2F0F1BF'
+      },
+      lineHeight: {
+        '12': '2.70rem'
+      }
+    },
   },
   plugins: [],
 }
