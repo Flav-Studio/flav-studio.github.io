@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'PP Pangaia';
+    src: local('PP Pangaia'), url(../font/PPPangaia-MediumItalic.otf) format('otf');
+}
+@font-face {
+    font-family: 'Lu';
+    src: local('PP Pangaia'), url(../font/PPPangaia-MediumItalic.otf) format('otf');
+}
+
 html, body {
     background-color: #F2F0F1;
 }

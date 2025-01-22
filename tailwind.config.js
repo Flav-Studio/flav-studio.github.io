@@ -9,6 +9,11 @@ export default {
     "./error.vue",
   ],
   theme: {
+    fontFamily: {
+      'helvetica': 'helvetica',
+      'PPPangaia': 'PPPangaia',
+      'lucida': ['Lucida Sans Typewriter', 'monospace']
+    },
     extend: {
       maxWidth: {
         'max': '92rem'
