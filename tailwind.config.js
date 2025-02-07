@@ -15,6 +15,9 @@ export default {
       'lucida': ['Lucida Sans Typewriter', 'monospace']
     },
     extend: {
+      width: {
+        'max': '92rem'
+      },
       maxWidth: {
         'max': '92rem'
       },
