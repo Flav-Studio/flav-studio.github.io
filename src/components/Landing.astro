@@ -1,0 +1,39 @@
+---
+import "../styles/global.css";
+import home1 from "../assets/landing-img/home-1.jpg"
+import home2 from "../assets/landing-img/home-2.jpg"
+import home3 from "../assets/landing-img/home-3.jpg"
+import home4 from "../assets/landing-img/home-4.jpg"
+import home5 from "../assets/landing-img/home-5.jpg"
+import landing_bag from "../assets/landing-img/home-6.png"
+---
+
+<div class="flex items-center justify-center">
+    <div class="flex flex-col max-w-[1621px] px-10 w-full">
+        <div class="flex justify-center gap-[35px] items-center">
+            <img class="h-[186px]" src={home1.src} />
+            <p class="text-[245px] m-0 leading-none font-[Helvetica]">Creative</p>
+            <img class="h-[186px]" src={home2.src} />
+        </div>
+        <div class="flex justify-end mt-[-45px] gap-[35px] items-center">
+            <img class="h-[186px]" src={home3.src} />
+            <p class="text-[245px] m-0 leading-none font-[Helvetica]">Minds</p>
+            <p class="text-[23px]">* Graphiste & Illustratrice</p>
+        </div>
+        <div class="flex gap-[35px]">
+            <div>
+                <div class="flex mt-[-45px] gap-[35px] items-center">
+                    <img class="h-[186px]" src={home5.src}  />
+                    <h1 class="text-[245px] m-0 leading-none font-[Helvetica]">Never</h1>
+                </div>
+                <div class="flex mt-[-45px] gap-[35px] items-center">
+                    <h1 class="text-[245px] m-0 leading-none font-[Helvetica]">Sleep</h1>
+                    <img class="h-[260px] mt-[30px]" src={landing_bag.src} />
+                </div>
+            </div>
+            <div>
+                <img class="h-[431px]" src={home4.src}/>
+            </div>
+        </div>
+    </div>
+</div>
