@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'PilowLava';
+    src: url(/assets/fonts/Pilowlava-Regular.otf);
+}
+
+@theme {
+    --container-maxcontainer: 1440px;
+    --container-maxcontent: 1200px;
+    --font-pilowlava: 'PilowLava';
+    --font-helvetica: 'Helvetica';
+}
