@@ -1,21 +1,11 @@
-<div 
-    style="
-        background-image: url('/assets/images/menu-background.png');
-        background-repeat: no-repeat;
-        background-position: 50vw 0%;
-        background-size: contain;
-        min-height: 100vh;
-    "
->
-    <div class="max-w-maxcontainer mx-auto">
-        <app-header />
+<div class="max-w-maxcontainer mx-auto">
+    <app-header />
 
-        <div class="flex h-[85vh] max-w-maxcontent mx-auto">
-            <div class="my-auto">
-                <router-outlet />
-            </div>
+    <div class="flex h-[85vh] max-w-maxcontent mx-auto">
+        <div class="my-auto w-full">
+            <router-outlet />
         </div>
-
-        <app-footer />
     </div>
+
+    <app-footer />
 </div>
